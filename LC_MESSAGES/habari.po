@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: habari\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2012-08-26 00:00+0000\n"
+"POT-Creation-Date: 2012-09-02 00:00+0000\n"
 "PO-Revision-Date: 2011-07-06 12:00+0000\n"
 "Last-Translator: Ali Sinan Açıl <alisinanacil@gmail.com>\n"
 "Language-Team: Turkish <tr@li.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2012-08-28 05:08+0000\n"
-"X-Generator: Launchpad (build 15864)\n"
+"X-Launchpad-Export-Date: 2012-09-03 05:08+0000\n"
+"X-Generator: Launchpad (build 15890)\n"
 
 #: index.php:107
 msgid "Habari General Error"
@@ -473,7 +473,7 @@ msgid "Latest Log Activity"
 msgstr "Son Kayıt Etkinlikleri"
 
 #: plugins/coredashmodules/coredashmodules.plugin.php:36
-#: plugins/coredashmodules/coredashmodules.plugin.php:241
+#: plugins/coredashmodules/coredashmodules.plugin.php:244
 msgid "Post Types and Statuses"
 msgstr ""
 
@@ -482,8 +482,8 @@ msgid "Number of items"
 msgstr ""
 
 #. @locale First variable is the post status, second is the post type
-#: plugins/coredashmodules/coredashmodules.plugin.php:130
-#: plugins/coredashmodules/coredashmodules.plugin.php:198
+#: plugins/coredashmodules/coredashmodules.plugin.php:133
+#: plugins/coredashmodules/coredashmodules.plugin.php:201
 #, php-format
 msgid "%1$s %2$s"
 msgstr ""
@@ -1250,7 +1250,7 @@ msgstr ""
 msgid "Displaying posts tagged: %s and not %s"
 msgstr ""
 
-#: themes/charcoal/theme.php:159 classes/theme.php:904
+#: themes/charcoal/theme.php:159 classes/theme.php:903
 msgid "No Comments"
 msgstr "Yorum Yok"
 
@@ -1741,7 +1741,7 @@ msgstr "Eklenti dosyası %s yazım hatası var ve yüklenemedi."
 msgid "Show Error"
 msgstr "Hatayı Göster"
 
-#: admin/plugin.php:18 installer/db_setup.php:258
+#: admin/plugin.php:18 installer/db_setup.php:260
 #, php-format
 msgid ""
 "The plugin file %s is a legacy plugin, and does not include an XML info file."
@@ -1842,7 +1842,7 @@ msgstr ""
 msgid "Apply"
 msgstr "Uygula"
 
-#: admin/formcontrols/formcontrol_textmulti.php:16 classes/formui.php:1839
+#: admin/formcontrols/formcontrol_textmulti.php:16 classes/formui.php:1857
 msgid "remove"
 msgstr "kaldır"
 
@@ -1857,7 +1857,7 @@ msgstr "Aktif Tema"
 #: admin/themes.php:21 admin/themes.php:23
 #: handlers/adminpluginshandler.php:127 installer/db_setup.php:11
 #: installer/db_setup.php:166 installer/db_setup.php:220
-#: installer/db_setup.php:251
+#: installer/db_setup.php:253
 msgid "Help"
 msgstr "Yardım"
 
@@ -2240,12 +2240,12 @@ msgstr "Pasifleştir"
 msgid "?"
 msgstr "?"
 
-#: handlers/adminpluginshandler.php:218
+#: handlers/adminpluginshandler.php:219
 #, php-format
 msgid "Activated plugin '%s'"
 msgstr "Aktif edilen eklenti '%s'"
 
-#: handlers/adminpluginshandler.php:227
+#: handlers/adminpluginshandler.php:228
 #, php-format
 msgid "Deactivated plugin '%s'"
 msgstr "Pasif edilen eklenti '%s'"
@@ -3400,56 +3400,56 @@ msgstr ""
 msgid "Anonymous"
 msgstr "Anonim"
 
-#: classes/user.php:163
+#: classes/user.php:165
 #, php-format
 msgid "New user created: %s"
 msgstr "Oluşturulan yeni kullanıcı: %s"
 
-#: classes/user.php:205
+#: classes/user.php:207
 #, php-format
 msgid "User deleted: %s"
 msgstr "Silinen kullanıcı: %s"
 
-#: classes/user.php:277 classes/user.php:306
+#: classes/user.php:283 classes/user.php:312
 #, php-format
 msgid "Successful login for %s"
 msgstr "Başarılı olarak giriş yaptı %s"
 
-#: classes/user.php:284
+#: classes/user.php:290
 #, php-format
 msgid "Login attempt (via authentication plugin) for non-existent user %s"
 msgstr ""
 
-#: classes/user.php:285 classes/user.php:297 classes/user.php:315
+#: classes/user.php:291 classes/user.php:303 classes/user.php:321
 msgid "Invalid username/password"
 msgstr ""
 
-#: classes/user.php:296
+#: classes/user.php:302
 #, php-format
 msgid "Login attempt for non-existent user %s"
 msgstr "%s bulunmayan kullanıcısı için oturum açma girişimi"
 
-#: classes/user.php:314
+#: classes/user.php:320
 #, php-format
 msgid "Wrong password for user %s"
 msgstr "Kullanıcı için yanlış şifre %s"
 
-#: classes/user.php:532
+#: classes/user.php:538
 #, php-format
 msgid "User %1$s: Access to %2$s changed to %3$s"
 msgstr ""
 
-#: classes/user.php:556
+#: classes/user.php:562
 #, php-format
 msgid "User %1$s: Permission to %2$s revoked."
 msgstr ""
 
-#: classes/user.php:595
+#: classes/user.php:601
 #, php-format
 msgid " User %1$s: Added to %2$s group."
 msgstr " %1$s Kullanıcısı: %2$s grubuna eklendi."
 
-#: classes/user.php:610
+#: classes/user.php:616
 #, php-format
 msgid " User %1$s: Removed from %2$s group."
 msgstr ""
@@ -3528,11 +3528,11 @@ msgstr "Girilen değer %d minumum değerinden az."
 msgid "The value entered is greater than the maximum of %d."
 msgstr "Girilen değer %d maximum değerinden fazla."
 
-#: classes/formui.php:1839
+#: classes/formui.php:1857
 msgid "Remove item"
 msgstr ""
 
-#: classes/formui.php:1843
+#: classes/formui.php:1861
 msgid "Remove this item?"
 msgstr "Bu öğeyi kaldır?"
 
@@ -3827,26 +3827,26 @@ msgstr ""
 "Oooops! 404 Hatası. Ulaşmaya çalıştığınız sayfa yerinde yok. Lütfen tekrar "
 "deneyin."
 
-#: classes/theme.php:672
+#: classes/theme.php:671
 #, php-format
 msgid ""
 "Content could not be displayed. One of the following templates - %s - has to "
 "be present in the active theme."
 msgstr ""
 
-#: classes/theme.php:830
+#: classes/theme.php:829
 msgid "Previous"
 msgstr "Önceki"
 
-#: classes/theme.php:857
+#: classes/theme.php:856
 msgid "Next"
 msgstr "Sonraki"
 
-#: classes/theme.php:883
+#: classes/theme.php:882
 msgid "Read Comments"
 msgstr "Yorumları Oku"
 
-#: classes/theme.php:909
+#: classes/theme.php:908
 #, php-format
 msgid "%s Comment"
 msgid_plural "%s Comments"
@@ -4769,23 +4769,23 @@ msgid ""
 "The theme file %s is a legacy theme, and does not include an XML info file."
 msgstr ""
 
-#: installer/db_setup.php:250
+#: installer/db_setup.php:252
 msgid "Plugin Activation"
 msgstr "Eklenti Aktivasyonu"
 
-#: installer/db_setup.php:283 installer/config.php:31 installer/sqlite.php:25
+#: installer/db_setup.php:285 installer/config.php:31 installer/sqlite.php:25
 #: installer/htaccess.php:25
 msgid "Install"
 msgstr "Yükle"
 
-#: installer/db_setup.php:286
+#: installer/db_setup.php:288
 msgid ""
 "Habari now has all of the information needed to install itself on your "
 "server."
 msgstr ""
 "Artık Habari kendisini sunucunuza yüklemek için gerekli bütün bilgiye sahip."
 
-#: installer/db_setup.php:287 installer/header.php:20
+#: installer/db_setup.php:289 installer/header.php:20
 msgid "Install Habari"
 msgstr "Habari'yi Yükle"
 
