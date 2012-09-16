@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: habari\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2012-09-02 00:00+0000\n"
+"POT-Creation-Date: 2012-09-09 00:00+0000\n"
 "PO-Revision-Date: 2011-07-06 12:00+0000\n"
 "Last-Translator: Ali Sinan Açıl <alisinanacil@gmail.com>\n"
 "Language-Team: Turkish <tr@li.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2012-09-03 05:08+0000\n"
-"X-Generator: Launchpad (build 15890)\n"
+"X-Launchpad-Export-Date: 2012-09-10 04:34+0000\n"
+"X-Generator: Launchpad (build 15924)\n"
 
 #: index.php:107
 msgid "Habari General Error"
@@ -1842,11 +1842,11 @@ msgstr ""
 msgid "Apply"
 msgstr "Uygula"
 
-#: admin/formcontrols/formcontrol_textmulti.php:16 classes/formui.php:1857
+#: admin/formcontrols/formcontrol_textmulti.php:30 classes/formui.php:1857
 msgid "remove"
 msgstr "kaldır"
 
-#: admin/formcontrols/formcontrol_textmulti.php:21
+#: admin/formcontrols/formcontrol_textmulti.php:35
 msgid "add"
 msgstr "ekle"
 
